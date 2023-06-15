@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom'
 import {scrollToTop} from "../../utils/headerUtils";
 
-export default function HeaderNavLink({link,index,links,burgerMenu,setBurgerMenu}) {
+export default function HeaderNavLink({link}) {
 
     //* Función para scrollear hacia arriba cada vez que se toca un enlace
 
