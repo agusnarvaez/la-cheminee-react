@@ -1,0 +1,54 @@
+/*! #######################################*/
+/*! ############### MOBILE ###############*/
+/*! #######################################*/
+.icon{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position:absolute;
+    top:-1200%;
+    left: 0;
+    transition: top 0.3s ease-in-out;
+    font-family: Poppins, serif;
+}
+.active{
+    font-weight: bold;
+}
+.show{
+    top:0;
+    transition: top 0.3s ease-in-out;
+    z-index: 100;
+}
+
+
+/*! ########################################*/
+/*! ##### TABLETS & LARGER SMARTPHONES #####*/
+/*! ########################################*/
+@media (min-width: 481px) {
+    .icon{
+        font-size: 40px;
+    }
+
+
+}
+
+/*! ########################################*/
+/*! ################ LAPTOPS ###############*/
+/*! ########################################*/
+@media (min-width: 769px) {
+    .navbar{
+        position:relative;
+    }
+}
+
+/*! ########################################*/
+/*! ############ LARGER DESKTOPS ###########*/
+/*! ########################################*/
+@media (min-width: 1280px) {
+
+}
+
