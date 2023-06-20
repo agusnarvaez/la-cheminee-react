@@ -16,6 +16,7 @@
     "react-leaflet-draw": "^0.20.4",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.63.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
