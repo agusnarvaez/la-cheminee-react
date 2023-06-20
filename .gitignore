@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+.idea
+
+# credentials
+credentials.js
 
 # testing
 /coverage
