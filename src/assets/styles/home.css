@@ -1,0 +1,62 @@
+/*! #######################################*/
+/*! ############### MOBILE ###############*/
+/*! #######################################*/
+
+.banner{
+    background-image: url('../backgrounds/banner-home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Ajusta la altura según sea necesario */
+}
+
+.banner .container {
+color: #fff; /* Color del texto */
+text-align: center;
+filter: brightness(1.5);
+}
+
+.banner::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia */
+}
+
+/*! ########################################*/
+/*! ##### TABLETS & LARGER SMARTPHONES #####*/
+/*! ########################################*/
+@media (min-width: 481px) {
+    .banner{
+        height: 400px; /* Ajusta la altura según sea necesario */
+    }
+}
+
+/*! ########################################*/
+/*! ################ LAPTOPS ###############*/
+/*! ########################################*/
+@media (min-width: 769px) {
+    .banner{
+        height: 500px; /* Ajusta la altura según sea necesario */
+    }
+}
+
+/*! ########################################*/
+/*! ############ LARGER DESKTOPS ###########*/
+/*! ########################################*/
+@media (min-width: 1280px) {
+    .banner{
+        height: 650px; /* Ajusta la altura según sea necesario */
+    }
+}
+
+/*! ########################################*/
+/*! ######### EXTRA LARGER DESKTOPS ########*/
+/*! ########################################*/
+@media (min-width: 1480px) {
+    .banner{
+        height: 750px; /* Ajusta la altura según sea necesario */
+    }
+}
