@@ -6,7 +6,7 @@ export default function HeaderNavLink({link}) {
 
     //* Función para scrollear hacia arriba cada vez que se toca un enlace
 
-    var liClass = 'nav-item py-1'
+    var liClass = 'nav-item col-12 py-1'
 
     var linkClass = 'nav-link text-white p-0 fs-6 l-p-3'
     return (
