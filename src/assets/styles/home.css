@@ -24,11 +24,40 @@ width: 100%;
 height: 100%;
 background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia */
 }
-
+.box-shadow{
+    box-shadow: 0px 4px 56px 2px rgba(0, 0, 0, 0.25);
+}
 .introduction-image{
     box-shadow: 0px 4px 56px 2px rgba(0, 0, 0, 0.25);
     object-fit: cover;
 }
+
+.carrouselContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.carrouselContainer_mobil{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 650vw;
+    padding: 15% 0 15% 0;
+}
+
+.carrouselContainer_mobil img{
+    object-fit: cover;
+    height: 100%;
+}
+
 
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
@@ -43,12 +72,16 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .fs-lg-2{
         font-size: 2rem !important;
     }
+    .carrouselContainer_mobil{
+        width: 320vw;
+        padding: 10% 0 10% 0;
+    }
 }
 
 /*! ########################################*/
 /*! ################ LAPTOPS ###############*/
 /*! ########################################*/
-@media (min-width: 769px) {
+@media (min-width: 800px) {
     .banner{
         height: 500px; /* Ajusta la altura según sea necesario */
     }
@@ -58,6 +91,40 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     }
     .fs-lg-2{
         font-size: 2.3rem !important;
+    }
+    .carrouselContainer{
+        overflow: hidden;
+        height: 80vh;
+    }
+    .carrouselContainer_mobil{
+        scrollbar-width: none;
+        width: 300vw;
+        padding: 5% 0 5% 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .carrouselContainer_mobil-position-1{
+        left: 0;
+    }
+    .carrouselContainer_mobil-position-2{
+        left: -40%;
+    }
+    .carrouselContainer_mobil-position-3{
+        left: -80%;
+    }
+    .carrouselContainer_mobil-position-4{
+        left: -120%;
+    }
+    .carrouselContainer_mobil-position-5{
+        left: -160%;
+    }
+
+    .carrousel-navigator{
+        z-index: 150;
+    }
+    .carrousel-navigator button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 }
 
@@ -75,6 +142,31 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 
     .fs-lg-2{
         font-size: 2.5rem !important;
+    }
+    .carrouselContainer{
+        height: 80vh;
+    }
+    .carrouselContainer_mobil{
+        scrollbar-width: none;
+        width: 200vw;
+        padding: 5% 0 5% 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .carrouselContainer_mobil-position-1{
+        left: 0;
+    }
+    .carrouselContainer_mobil-position-2{
+        left: -40%;
+    }
+    .carrouselContainer_mobil-position-3{
+        left: -80%;
+    }
+    .carrouselContainer_mobil-position-4{
+        left: -120%;
+    }
+    .carrouselContainer_mobil-position-5{
+        left: -160%;
     }
 }
 
