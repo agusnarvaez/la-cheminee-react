@@ -92,6 +92,28 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     height: 100%; /* Asegura que la imagen no se salga del contenedor */
     max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
 }
+.spa-gallery{
+    height: 550px;
+    overflow: hidden;
+}
+.spa-gallery-mobil{
+    width: 200%;
+    position: absolute;
+    top:0;
+    left: 0;
+    white-space: nowrap;
+    animation: scroll 5s ease-in-out infinite alternate;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
 
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
@@ -113,6 +135,22 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 
     .carousel-inner{
         min-height: 400px;
+    }
+
+    .spa-gallery{
+        height: 760px;
+    }
+    .spa-gallery-mobil{
+        width: 150%;
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-35%);
+        }
     }
 }
 
@@ -169,6 +207,16 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .carousel-inner{
         min-height: 300px;
     }
+
+    .spa-gallery{
+        height: auto;
+    }
+    .spa-gallery-mobil{
+        position: relative;
+        width: 100%;
+        animation: none;
+    }
+
 }
 
 /*! ########################################*/
