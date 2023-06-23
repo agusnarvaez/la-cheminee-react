@@ -18,6 +18,7 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+
 .texto-elegante{
     font-family: Playfair Display, serif;
 }
@@ -40,6 +41,24 @@ body {
     color: #394C02;
 }
 
+.border-cheminee-start{
+    border-left: 1px solid #394C02;
+}
+
+.border-cheminee-end{
+    border-right: 1px solid #394C02;
+}
+.btn-la-cheminee{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 2% 5%;
+    border: #394C02 2px solid !important;
+    transition: all 0.3s ease-in-out;
+}
+
 .z-index-150{
     z-index: 200;
 }
@@ -48,7 +67,11 @@ body {
 /*! ########################################*/
 @media (min-width: 481px) {
 
-
+    .btn-la-cheminee{
+        font-size: 1.2rem;
+        border-radius: 10px;
+        padding: 1% 0%;
+    }
 
 }
 
@@ -59,7 +82,17 @@ body {
 @media (min-width: 769px) {
 
 
+    .btn-la-cheminee{
+        font-size: 1rem;
+        border-radius: 15px;
+        padding: 2% 0%;
+    }
 
+    .btn-la-cheminee:hover{
+        color: #394C02;
+        background-color: white;
+        font-weight: bold;
+    }
 
 }
 

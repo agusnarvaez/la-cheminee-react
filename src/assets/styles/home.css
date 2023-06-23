@@ -59,6 +59,40 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 }
 
 
+/* Estilo personalizado para los indicadores de tipo círculo */
+.carousel-indicators {
+    bottom: 0px; /* Ajusta la posición vertical según sea necesario */
+}
+
+.carousel-indicators button {
+    width: 10px !important; /* Ajusta el tamaño del indicador */
+    height: 10px !important; /* Ajusta el tamaño del indicador */
+    border-radius: 50%; /* Hace que el indicador sea circular */
+    border: none; /* Elimina el borde del indicador */
+    background-color: #ccc; /* Establece el color del indicador */
+    margin: 0 4px; /* Ajusta el espaciado horizontal entre indicadores */
+    opacity: 1; /* Ajusta la opacidad del indicador activo */
+    transition: opacity 0.15s ease; /* Agrega una transición suave */
+}
+
+.carousel-indicators button.active {
+    background-color: white; /* Establece el color del indicador activo */
+}
+.carousel-inner{
+    height: 250px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    object-fit: cover; /* Ajusta el tamaño de la imagen para ajustarse al contenedor */
+    max-height: 100%; /* Asegura que la imagen no se salga del contenedor */
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+}
+
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
 /*! ########################################*/
@@ -75,6 +109,10 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .carrouselContainer_mobil{
         width: 320vw;
         padding: 10% 0 10% 0;
+    }
+
+    .carousel-inner{
+        height: 400px;
     }
 }
 
@@ -126,6 +164,11 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         border: none;
         cursor: pointer;
     }
+
+
+    .carousel-inner{
+        height: 300px;
+    }
 }
 
 /*! ########################################*/
@@ -168,6 +211,10 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .carrouselContainer_mobil-position-5{
         left: -160%;
     }
+
+    .carousel-inner{
+        height: 450px;
+    }
 }
 
 /*! ########################################*/
@@ -176,5 +223,9 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 @media (min-width: 1480px) {
     .banner{
         height: 750px; /* Ajusta la altura según sea necesario */
+    }
+
+    .carousel-inner{
+        height: 700px;
     }
 }
