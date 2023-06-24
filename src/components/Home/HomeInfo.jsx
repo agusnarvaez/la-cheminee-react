@@ -1,7 +1,7 @@
 
 import woodsIcon from '../../assets/logos/house-tree.svg'
 import careIcon from '../../assets/logos/care.svg'
-export default function HomeBanner() {
+export default function HomeInfo() {
   return (
     <section className="container-fluid col-12 row m-0">
 
