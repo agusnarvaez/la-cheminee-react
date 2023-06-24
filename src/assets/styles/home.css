@@ -115,6 +115,10 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     }
 }
 
+.homeInfoContent{
+    border-bottom: 1px solid #6e6e6e31;
+}
+
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
 /*! ########################################*/
@@ -152,6 +156,8 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
             transform: translateX(-35%);
         }
     }
+
+
 }
 
 /*! ########################################*/
@@ -215,6 +221,11 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         position: relative;
         width: 100%;
         animation: none;
+    }
+
+    .homeInfoContent{
+        border-bottom:none;
+        border-right: 1.5px solid #6e6e6e31;
     }
 
 }
