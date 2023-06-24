@@ -35,7 +35,7 @@ return (
 
         <FooterTitle/>
 
-        <div className="accordion accordion-flush bg-green-la-cheminee d-lg-none border-bottom" id="accordionFlush">
+        <div className="accordion footerAccordion accordion-flush bg-green-la-cheminee d-lg-none border-bottom" id="accordionFlush">
 
             <FooterAccordionItem title="La Cheminée" accordionId="flush-collapseOne" links={primaryLinks}/>
 

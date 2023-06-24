@@ -1,4 +1,3 @@
-import laChemineeLogo from '../../assets/logos/logo-la-cheminee-white.svg'
 import GoogleMap from './HomeLocation/GoogleMap'
 export default function HomeLocation() {
   return (

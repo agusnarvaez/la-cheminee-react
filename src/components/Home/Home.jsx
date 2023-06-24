@@ -7,6 +7,7 @@ import HomeRooms from './HomeRooms'
 import HomeSpa from './HomeSpa'
 import HomeInfo from './HomeInfo'
 import HomeLocation from './HomeLocation'
+import HomeFaq from './HomeFaq'
 export default function Home() {
   return (
     <main className="container-fluid p-0">
@@ -23,6 +24,8 @@ export default function Home() {
       <HomeInfo/>
 
       <HomeLocation/>
+
+      <HomeFaq/>
     </main>
   )
 }

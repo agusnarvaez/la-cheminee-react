@@ -119,6 +119,19 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     border-bottom: 1px solid #6e6e6e31;
 }
 
+.faqAccordion .accordion-item{
+    background-color: white !important;
+}
+
+.faqAccordion .accordion-button{
+    background-color: white !important;
+    color: #394C02 !important;
+    font-size: 0.8rem;
+}
+.faqAccordion p{
+    font-size: 0.8rem;
+}
+
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
 /*! ########################################*/
@@ -157,7 +170,12 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         }
     }
 
-
+    .faqAccordion .accordion-button{
+        font-size: 1rem;
+    }
+    .faqAccordion p{
+        font-size: 1rem;
+    }
 }
 
 /*! ########################################*/
@@ -228,6 +246,13 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         border-right: 1.5px solid #6e6e6e31;
     }
 
+
+    .faqAccordion .accordion-button{
+        font-size: 1.2rem;
+    }
+    .faqAccordion p{
+        font-size: 1.1rem;
+    }
 }
 
 /*! ########################################*/
