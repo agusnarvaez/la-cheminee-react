@@ -14,7 +14,6 @@ export default function FooterSocials() {
           <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-facebook me-4 fs-2 "/></a></li>
           <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-instagram me-4 fs-2 "/></a></li>
         </ul>
-
     </section>
   )
 }

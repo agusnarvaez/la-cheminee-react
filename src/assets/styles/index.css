@@ -18,6 +18,18 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+.fs-11rem{
+    font-size: 1.1rem;
+}
+.fs-15rem{
+    font-size: 1.5rem;
+}
+.fs-2rem{
+    font-size: 2rem;
+}
+.fs-3rem{
+    font-size: 3rem;
+}
 
 .texto-elegante{
     font-family: Playfair Display, serif;
@@ -44,7 +56,12 @@ footer .footerAccordion .accordion-button.active::after {
 .border-cheminee-start{
     border-left: 1px solid #394C02;
 }
-
+.rounded-15px{
+    border-radius: 15px;
+}
+.rounded-10px{
+    border-radius: 10px;
+}
 .border-cheminee-end{
     border-right: 1px solid #394C02;
 }

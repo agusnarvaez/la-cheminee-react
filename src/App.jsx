@@ -12,7 +12,7 @@ const Contact = lazy(()=>import("./components/Contact/Contact"))
 const Terms = lazy(()=>import("./components/Terms/Terms"))
 const Privacy = lazy(()=>import("./components/Privacy/Privacy"))
 const Footer = lazy(()=>import("./components/Footer"))
-
+const Error404 = lazy(()=>import("./components/Error404"))
 export default function App() {
   return (
     <Suspense fallback={<div className="loading">Cargando...</div>}>
@@ -26,6 +26,7 @@ export default function App() {
             <Route path="/contacto" element={<Contact />} />
             <Route path="/terminos-y-condiciones" element={<Terms />} />
             <Route path="/politicas-de-privacidad" element={<Privacy />} />
+            <Route path="*" element={<Error404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
