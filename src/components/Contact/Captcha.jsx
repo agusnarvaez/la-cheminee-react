@@ -1,7 +1,7 @@
-import { useRef } from "react"
-
-import ReCAPTCHA from "react-google-recaptcha";
-import credentials from "../../credentials";
+//* Importo librería para el CAPTCHA
+import ReCAPTCHA from "react-google-recaptcha"
+//* Importo las credenciales del CAPTCHA
+import credentials from "../../credentials"
 
 export default function Captcha({ register, setValue, errors }) {
     return (
