@@ -18,6 +18,9 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+.fs-1rem{
+    font-size: 1rem;
+}
 .fs-11rem{
     font-size: 1.1rem;
 }
@@ -90,6 +93,12 @@ footer .footerAccordion .accordion-button.active::after {
         padding: 1% 0%;
     }
 
+    .fs-md-3rem{
+        font-size: 3rem;
+    }
+    .fs-md-1rem{
+        font-size: 1rem;
+    }
 }
 
 
