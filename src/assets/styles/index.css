@@ -99,6 +99,12 @@ footer .footerAccordion .accordion-button.active::after {
     .fs-md-1rem{
         font-size: 1rem;
     }
+    .fs-md-13rem{
+        font-size: 1.3rem;
+    }
+    .fs-md-15rem{
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -118,6 +124,16 @@ footer .footerAccordion .accordion-button.active::after {
         color: #394C02;
         background-color: white;
         font-weight: bold;
+    }
+
+    .fs-lg-1rem{
+        font-size: 1rem;
+    }
+    .fs-lg-2rem{
+        font-size: 2rem;
+    }
+    .fs-lg-3rem{
+        font-size: 3rem;
     }
 
 }
