@@ -8,7 +8,7 @@ import suiteStandardPlus1 from '../../assets/images/suiteStandardPlus-1.jpg'
 import suiteStandardPlus2 from '../../assets/images/suiteStandardPlus-2.jpg'
 import suiteStandardPlus3 from '../../assets/images/suiteStandardPlus-3.jpg'
 
-import HomeRoomsItem from './HomeRooms/HomeRoomsItem'
+import HomeRoomsItem from './HomeRooms/HomeRoomsArticle'
 
 export default function HomeRooms() {
 const rooms = [
@@ -36,7 +36,7 @@ const rooms = [
 
       <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee texto-elegante">Nuestras habitaciones</h2>
 
-      {rooms.map((room,index) => {return(<HomeRoomsItem room={room} index={index} />)})}
+      {rooms.map((room,index) => {return(<HomeRoomsItem room={room} key={index} />)})}
 
     </section>
   )

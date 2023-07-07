@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import CarrouselInner from './HomeRoomsCarrouselInner';
 export default function HomeRoomsCarrousel({photos,index}) {
   const [currentImageIndex, setCurrentImageIndex] = useState(1);
 
@@ -28,23 +28,8 @@ export default function HomeRoomsCarrousel({photos,index}) {
           <button type="button" data-bs-target={"#carrousel-"+index} data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <div className="carousel-inner">
-          {photos.map((photo, index) => {
-            if (index === 0) {
-              return (
-                <div className="carousel-item active">
-                  <img src={photo} className="d-block w-100" alt={photo}/>
-                </div>
-              )
-            } else {
-              return (
-                <div className="carousel-item">
-                  <img src={photo} className="d-block w-100" alt={photo}/>
-                </div>
-              )
-            }
-          })}
-        </div>
+        <CarrouselInner photos={photos}/>
+
         <div className="d-none d-lg-flex text-white align-items-center position-absolute bottom-0 end-0 carrousel-navigator ">
           <button className="bi bi-arrow-left text-white fs-4 fw-light" type="button" data-bs-target={"#carrousel-"+index} data-bs-slide="prev" onClick={handlePrevious}/>
 
