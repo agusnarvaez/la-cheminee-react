@@ -6,7 +6,6 @@ import Header from "./components/Header"
 
 
 const Home = lazy(()=>import("./components/Home/Home"))
-const Hotel = lazy(()=>import("./components/Hotel/Hotel"))
 const About = lazy(()=>import("./components/About/About"))
 const Contact = lazy(()=>import("./components/Contact/Contact"))
 const Terms = lazy(()=>import("./components/Terms/Terms"))
@@ -20,8 +19,6 @@ export default function App() {
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/inicio" element={<Home />} />
-            <Route path="/el-hotel" element={<Hotel />} />
             <Route path="/sobre-nosotros" element={<About />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/terminos-y-condiciones" element={<Terms />} />
