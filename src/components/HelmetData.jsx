@@ -1,0 +1,27 @@
+
+//* REACT-HELMET
+import { Helmet,HelmetProvider } from 'react-helmet-async'
+
+export default function HelmetData({metaData}) {
+
+return (
+    <HelmetProvider>
+    <Helmet defer={false}>
+        <title>La Cheminée | {metaData.title}</title>
+
+        <meta name="description" content={metaData.description} />
+
+        <meta name="keywords" content={metaData.keywords} />
+
+        <meta property="og:title" content={`Quintas del Oeste | ${metaData.title}`}/>
+
+        <meta property="og:description" content={metaData.description}/>
+
+        <link rel="canonical" href={metaData.cannonical}/>
+
+        <link rel="icon" href={metaData.favicon} />
+        <link rel="apple-touch-icon" href={metaData.favicon} />
+    </Helmet>
+    </HelmetProvider>
+)
+}
