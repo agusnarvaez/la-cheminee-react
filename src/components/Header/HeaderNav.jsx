@@ -3,10 +3,10 @@ import HeaderNavLink from "./HeaderNavLink";
 export default function HeaderNav({burgerMenu,setBurgerMenu}) {
 
     const links = [
-/*         {
+        {
             title:"El Hotel",
-            to:"/el-hotel"
-        }, */
+            to:"/"
+        },
         {
             title:"Sobre Nosotros",
             to:"/sobre-nosotros"
