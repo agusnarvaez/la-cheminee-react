@@ -36,6 +36,11 @@
     color: #394C02;
     font-weight: bold;
 }
+.btn-contact__success{
+    border: 2px solid #394C02;
+    color:white;
+    background-color: #394C02;
+}
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
 /*! ########################################*/
