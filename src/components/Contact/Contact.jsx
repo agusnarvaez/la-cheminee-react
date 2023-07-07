@@ -6,6 +6,8 @@ import '../../assets/styles/contact.css'
 import {useState} from 'react'
 import {useForm} from 'react-hook-form'
 
+import HelmetData from '../HelmetData'
+
 //* Importo componentes
 import ContactInput from './ContactInput'
 import Captcha from './Captcha'
@@ -15,7 +17,7 @@ import Button from './Button'
 import {sendEmail} from '../../services/emailjs.js'
 import { buttonState,contactFields as fields } from '../../utils/formUtils'
 
-export default function Contact() {
+export default function Contact({metaData}) {
   //* Estado del botón
   const [buttonClass,setButtonClass] = useState(buttonState.default) // ['default','loading','success','error'
   //* Hook de formulario
@@ -50,6 +52,8 @@ export default function Contact() {
 
   return (
     <main className="container-fluid p-0 pt-4 px-md-5">
+      <HelmetData metaData={metaData}/>
+
       <div className="container-fluid p-0">
         <h1 className="texto-verde-la-cheminee texto-elegante fw-bold text-center fs-2rem fs-md-3rem">¡Contactanos!</h1>
         <p className='texto-verde-la-cheminee text-center px-2 fs-11rem'>Ponete en contacto con La Cheminée e indicanos en qué te podemos ayudar</p>

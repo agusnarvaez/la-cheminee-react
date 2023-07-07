@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom'
 import living4 from '../assets/images/living-4.jpg'
 import '../assets/styles/notFound.css'
 
-export default function Error404() {
+import HelmetData from './HelmetData'
+
+export default function Error404({metaData}) {
   return (
     <main className="container-fluid p-0 d-flex flex-column flex-md-row align-items-center align-items-md-stretch justify-content-center  justify-content-md-between h-100 ">
+      <HelmetData metaData={metaData}/>
       <div className='container-fluid col-md-6 py-5 py-md-0 px-3 px-md-0 d-flex flex-column align-items-center align-items-md-start justify-content-center  justify-content-md-between'>
         <div className='container-fluid p-0 pt-md-5 pe-md-4 d-flex flex-column align-items-center align-items-md-start justify-content-center'>
           <h2 className='texto-verde-la-cheminee texto-elegante text-center fs-3rem fw-bold ms-md-3'>Algo salió mal</h2>

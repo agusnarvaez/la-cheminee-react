@@ -1,4 +1,4 @@
-import {useState,useRef, useEffect} from 'react';
+import {useState,useRef} from 'react';
 
 import living3 from '../../assets/images/living-3.jpg'
 import living2 from '../../assets/images/living-2.jpg'
@@ -27,13 +27,12 @@ export default function HomeCarrousel() {
       setCarrousel(carrousel - 1)
     }
   }
-  useEffect(() => {
-    if (myElementRef.current) {
-      const rect = myElementRef.current.getBoundingClientRect();
-      const xPosition = rect.x; // Posición en el eje X
-      console.log('Posición en X:', xPosition);
+  /*useEffect(() => {
+     if (myElementRef.current) {
+      //const rect = myElementRef.current.getBoundingClientRect();
+      //const xPosition = rect.x; // Posición en el eje X
     }
-  }, []);
+  }, [])*/
 
   return (
     <section className="container-fluid p-0 position-relative">
