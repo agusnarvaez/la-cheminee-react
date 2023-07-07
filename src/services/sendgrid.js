@@ -3,30 +3,28 @@ import credentials from '../credentials'
 
 const sendContactEmail = {
     autoReply: async (data) => {
-        sendEmail({data,templateId:credentials.sendGrid.autoReplyTemplate})
+        return sendEmail(data,credentials.sendGrid.autoReplyTemplate)
     },
     notification: async (data) => {
-        sendEmail({data,templateId:credentials.sendGrid.notificationTemplate})    },
+        return sendEmail(data,credentials.sendGrid.notificationTemplate)    },
 }
 
 const sendEmail = async (data,templateId) => {
     try {
-        console.log(data)
         const response = await axios.post(
-            'https://api.sendgrid.com/v3/mail/send',
+            'http://localhost:8080/https://api.sendgrid.com/v3/mail/send',
             {
                 template_id: templateId, // Reemplaza con el ID del template deseado
                 personalizations: [
                     {
-                    to: [{ email: data.email }],
-                    subject: data.subject,
+                        to: [{email:data.email}], /* ? data.email.map((email) => ({ email })) : [], // Verifica si el campo de email está definido */
+                        phone: data.phone,
+                        name: data.name,
+                        subject: data.subject,
                     },
-                ],
+                  ],
                 from: { email: 'agus.narvaez@outlook.com' },
-                description: data.description,
-                phone: data.phone,
-                name: data.name,
-                content: [{ type: 'text/plain', value: 'Heya!' }]
+                content: [{ type: 'text/plain', value: data.description }], // Si se proporciona un template_id válido, no se necesita el campo "content"
             // ...otros datos necesarios para la solicitud de envío de correo electrónico
             },
             {
@@ -36,10 +34,11 @@ const sendEmail = async (data,templateId) => {
             },
             }
         )
-
+        console.log(response)
       console.log(response.data) // Respuesta de la API de SendGrid
     } catch (error) {
       console.error(error)
+      return error
     }
   }
 

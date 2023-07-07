@@ -15,7 +15,7 @@ export default function Contact() {
       await sendContactEmail.autoReply(data)
       reset()
     }catch(error){
-      alert('Hubo un error al enviar el mail, por favor intentá nuevamente')
+      alert('Hubo un error al enviar el mail, por favor intentá nuevamente dentro de unos minutos')
       console.log(error)
     }
   })
