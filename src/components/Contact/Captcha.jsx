@@ -2,7 +2,7 @@ import { useRef } from "react"
 
 import ReCAPTCHA from "react-google-recaptcha";
 import credentials from "../../credentials";
-import { useForm } from "react-hook-form";
+
 export default function Captcha({ register, setValue, errors }) {
     return (
       <>

@@ -3,16 +3,26 @@ import '../../assets/styles/contact.css'
 import {useForm} from 'react-hook-form'
 import ContactInput from './ContactInput'
 import Captcha from './Captcha'
+import {sendContactEmail} from '../../services/sendgrid.js'
+
 export default function Contact() {
   const {register,handleSubmit,formState:{errors},getValues,setValue,reset} = useForm()
 
   const onSubmit = handleSubmit(async(data) => {
     console.log(data)
+    try{
+      await sendContactEmail.notification(data)
+      await sendContactEmail.autoReply(data)
+      reset()
+    }catch(error){
+      alert('Hubo un error al enviar el mail, por favor intentá nuevamente')
+      console.log(error)
+    }
   })
 
   const fields =[
     {
-      name:'nombreYApellido',
+      name:'name',
       placeholder:'Nombre y apellido',
       type:'text',
       options:{
@@ -32,7 +42,7 @@ export default function Contact() {
       }
     },
     {
-      name:'telefono',
+      name:'phone',
       placeholder:'Teléfono',
       type:'text',
       options:{
