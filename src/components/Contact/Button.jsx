@@ -1,6 +1,3 @@
-
-/* import check from '../../assets/img/icons/check.svg' */
-
 export default function Button({buttonClass,text}) {
 
     const buttonSelection = ()=>{
