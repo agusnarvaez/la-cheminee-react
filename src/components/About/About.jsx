@@ -4,6 +4,7 @@ import '../../assets/styles/about.css'
 import decoracion from '../../assets/images/decoracion-2.jpg'
 import ventana from '../../assets/images/ventana.jpg'
 import barra from '../../assets/images/barra.jpg'
+import banner from '../../assets/backgrounds/banner-home.jpg'
 export default function About({metaData}) {
   return (
     <main className="container-fluid p-0 px-3 px-md-4 px-lg-5 d-flex flex-column align-items-center">
@@ -50,6 +51,16 @@ export default function About({metaData}) {
       </p>
 
       <img alt='barra de la cheminée' className='img-fluid col-12 p-0 object-fit-cover mt-5 mb-md-0' src={barra} />
+    </div>
+
+    <div className="top-separator min-height-600 min-height-md-700 p-0 pt-4 py-lg-5 d-flex flex-column align-items-center">
+      <div className='col-12'>
+        <h2 className='texto-elegante text-center texto-verde-la-cheminee fw-bold fs-lg-2rem py-lg-4'>¡Te esperamos!</h2>
+        <p className='texto-verde-la-cheminee text-center fs-1rem fs-md-13rem px-md-3 px-lg-2'>Ya sea que estés visitando nuestra encantadora ciudad por negocios o por placer, en La Cheminée nos esforzamos por superar tus expectativas y convertir tu estancia en una experiencia inolvidable.</p>
+        <p className='texto-verde-la-cheminee text-center fs-1rem fs-md-13rem px-md-3 px-lg-2'>Te invitamos a descubrir el encanto y la hospitalidad de La Cheminée. ¡Esperamos darle la bienvenida pronto y convertirnos en tu hogar lejos de casa!</p>
+      </div>
+
+      <img className='img-fluid min-height-300 col-12 p-0 object-fit-cover mt-3 mb-md-0' alt='la cheminee' src={banner} />
     </div>
 
     </main>
