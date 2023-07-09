@@ -17,7 +17,7 @@ export default function Header() {
             <NavLink
                 onClick={scrollToTop}
                 className="col-6 col-md-5 col-lg-4 d-flex align-center"
-                to='/inicio'
+                to='/'
                 title='inicio'
                 exact="true"
             >
