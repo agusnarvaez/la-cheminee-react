@@ -1,33 +1,39 @@
 import '../../assets/styles/home.css'
 import HelmetData from '../HelmetData'
 
-import HomeBanner from "./HomeBanner"
-import HomeIntroduction from './HomeIntroduction'
-import HomeCarrousel from './HomeGallery'
-import HomeRooms from './HomeRooms'
-import HomeSpa from './HomeSpa'
-import HomeInfo from './HomeInfo'
-import HomeLocation from './HomeLocation'
-import HomeFaq from './HomeFaq'
+import { Suspense,lazy } from 'react'
+
+//* Componentes lazy load
+const HomeBanner = lazy(()=>import("./HomeBanner"))
+const HomeIntroduction = lazy(()=>import('./HomeIntroduction'))
+const HomeCarrousel = lazy(()=>import('./HomeGallery'))
+const HomeRooms = lazy(()=>import('./HomeRooms'))
+const HomeSpa= lazy(()=>import('./HomeSpa'))
+const HomeInfo = lazy(()=>import('./HomeInfo'))
+const HomeLocation = lazy(()=>import('./HomeLocation'))
+const HomeFaq = lazy(()=>import('./HomeFaq'))
+
 export default function Home({metaData}) {
   return (
     <main className="container-fluid p-0">
       <HelmetData metaData={metaData}/>
-      <HomeBanner/>
+      <Suspense fallback={<div className="loading">Cargando...</div>}>
+        <HomeBanner/>
 
-      <HomeIntroduction/>
+        <HomeIntroduction/>
 
-      <HomeCarrousel />
+        <HomeCarrousel />
 
-      <HomeRooms/>
+        <HomeRooms/>
 
-      <HomeSpa/>
+        <HomeSpa/>
 
-      <HomeInfo/>
+        <HomeInfo/>
 
-      <HomeLocation/>
+        <HomeLocation/>
 
-      <HomeFaq/>
+        <HomeFaq/>
+      </Suspense>
     </main>
   )
 }

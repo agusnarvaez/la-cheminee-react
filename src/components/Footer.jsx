@@ -8,7 +8,7 @@ export default function Footer() {
 const primaryLinks = [
     {
         title:"El Hotel",
-        to:"/el-hotel"
+        to:"/"
     },
     {
         title:"Sobre Nosotros",
