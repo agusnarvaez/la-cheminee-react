@@ -10,7 +10,7 @@
 
 .navbar{
     position:absolute;
-    top:-1200%;
+    top:-1500%;
     left: 0;
     transition: top 0.3s ease-in-out;
     font-family: Poppins, serif;
@@ -39,7 +39,7 @@
 /*! ########################################*/
 /*! ################ LAPTOPS ###############*/
 /*! ########################################*/
-@media (min-width: 769px) {
+@media (min-width: 992px) {
     .navbar{
         position:relative;
     }
