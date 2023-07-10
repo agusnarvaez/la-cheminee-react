@@ -19,7 +19,7 @@ export default function Error404({metaData}) {
           <span className="notFoundTextInner">404<br />NOT<br />FOUND</span>
         </div>
       </div>
-      <img className='d-none d-md-block img-fluid col-6 img-cover notFoundImage' alt='living' src={living4}/>
+      <img className='d-none d-md-block img-fluid col-6 cover-image-shadowed notFoundImage' alt='living' src={living4}/>
     </main>
   )
 }
