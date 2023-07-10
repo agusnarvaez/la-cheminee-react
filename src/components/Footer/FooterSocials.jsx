@@ -11,9 +11,10 @@ export default function FooterSocials() {
 
         <ul className="container-fluid p-0 m-lg-0 mt-0 col-12 text-white list-unstyled d-flex flex-wrap justify-content-start">
           <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-whatsapp me-4 fs-2 "/></a></li>
-          <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-facebook me-4 fs-2 "/></a></li>
-          <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-instagram me-4 fs-2 "/></a></li>
+          {/* <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-facebook me-4 fs-2 "/></a></li>
+          <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-instagram me-4 fs-2 "/></a></li> */}
         </ul>
+
     </section>
   )
 }

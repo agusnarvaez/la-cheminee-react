@@ -16,11 +16,11 @@ export default function HomeFaq() {
     {
       title:"¿Cuáles son los horarios de desayuno?",
       text:"El desayuno se sirve de 8:00 a 10:00 hs."
-    },
+    }/* ,
     {
       title:"¿En qué momentos puedo disfruta del spa?",
       text:"El spa se encuentra abierto de 10:00 a 20:00 hs."
-    }
+    } */
   ]
 
   return (
