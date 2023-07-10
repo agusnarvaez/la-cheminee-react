@@ -238,6 +238,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 
     .spa-gallery{
         height: auto;
+        overflow-x: hidden;
     }
     .spa-gallery-mobil{
         position: relative;
