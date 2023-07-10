@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './assets/styles/Custom.scss'
 import './assets/styles/index.css'
 import Header from "./components/Header"
-
+import logoBapps from './assets/logos/logoBappsFooter.png'
 
 const Home = lazy(()=>import("./components/Home/Home"))
 const About = lazy(()=>import("./components/About/About"))
@@ -57,6 +57,9 @@ const metaData = {
             <Route path="*" element={<Error404 metaData={metaData.error404} />} />
         </Routes>
         <Footer />
+        <div className="col-12 py-3 bg-green-la-cheminee d-flex justify-content-center align-items-center">
+            <img className='logoBapps' alt="logoBapps" src={logoBapps} />
+        </div>
       </BrowserRouter>
     </Suspense>
   )
