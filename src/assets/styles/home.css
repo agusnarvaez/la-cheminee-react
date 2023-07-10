@@ -94,7 +94,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 }
 .spa-gallery{
     height: 550px;
-    overflow: hidden;
+    overflow: scroll;
 }
 .spa-gallery-mobil{
     width: 200%;
@@ -102,7 +102,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     top:0;
     left: 0;
     white-space: nowrap;
-    animation: scroll 5s ease-in-out infinite alternate;
+    animation: scroll 10s ease-in-out alternate;
 }
 
 @keyframes scroll {
@@ -110,8 +110,12 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         transform: translateX(0);
     }
 
-    100% {
+    50% {
         transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
     }
 }
 
