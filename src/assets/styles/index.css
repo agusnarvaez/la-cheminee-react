@@ -73,6 +73,17 @@ body {
 .fw-lighter{
     font-weight: lighter;
 }
+.py-30px{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.py-35px{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.lh-chico{
+    line-height: 1;
+}
 
 .texto-elegante{
     font-family: Playfair Display, serif;
@@ -178,6 +189,15 @@ footer .footerAccordion .accordion-button.active::after {
     .min-height-md-700{
         min-height: 750px;
     }
+
+    .py-md-40px{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .py-md-45px{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
 
 
@@ -221,6 +241,15 @@ footer .footerAccordion .accordion-button.active::after {
         font-size: 7rem;
     }
 
+    .py-lg-50px{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .py-lg-55px{
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
 }
 
 /*! ########################################*/
@@ -237,4 +266,12 @@ footer .footerAccordion .accordion-button.active::after {
         font-size: 3.5rem;
     }
 
+    .py-lg-60px{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .py-lg-65px{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
 }

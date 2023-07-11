@@ -1,4 +1,5 @@
 import '../assets/styles/home.css'
+import '../assets/styles/index.css'
 import HelmetData from '../components/HelmetData'
 
 import { Suspense,lazy } from 'react'

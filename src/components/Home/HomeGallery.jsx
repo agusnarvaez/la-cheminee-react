@@ -44,7 +44,7 @@ export default function HomeCarrousel() {
       </div>
 
       <div className="carrouselContainer">
-          <div className={"carrouselContainer_mobil carrouselContainer_mobil-position-"+carrousel} >
+          <div className={"carrouselContainer_mobil px-0 py-35px py-md-45px py-lg-55px carrouselContainer_mobil-position-"+carrousel} >
               {carrouselInfo.map((card,key) => <img loading='lazy' ref={myElementRef} className='img-fluid box-shadow mx-4' src={card} alt={card} key={key} /> )}
           </div>
 

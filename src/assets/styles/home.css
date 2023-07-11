@@ -50,7 +50,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     align-items: center;
     height: 100%;
     width: 650vw;
-    padding: 15% 0 15% 0;
+    /* padding: 15% 0 15% 0; */
 }
 
 .carrouselContainer_mobil img{
@@ -151,7 +151,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     }
     .carrouselContainer_mobil{
         width: 320vw;
-        padding: 10% 0 10% 0;
+        /* padding: 10% 0 10% 0; */
     }
 
     .carousel-inner{
@@ -203,7 +203,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .carrouselContainer_mobil{
         scrollbar-width: none;
         width: 300vw;
-        padding: 5% 0 5% 0;
+        /* padding: 5% 0 5% 0; */
         transition: all 0.5s ease-in-out;
     }
     .carrouselContainer_mobil-position-1{
@@ -281,7 +281,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     .carrouselContainer_mobil{
         scrollbar-width: none;
         width: 200vw;
-        padding: 5% 0 5% 0;
+        /* padding: 5% 0 5% 0; */
         transition: all 0.5s ease-in-out;
     }
 

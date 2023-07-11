@@ -32,9 +32,9 @@ const rooms = [
   }
 ]
   return (
-    <section className="container-fluid border-top border-bottom col-12 row m-0 p-0 py-5 position-relative">
+    <section className="container-fluid border-top border-bottom col-12 row m-0 px-0 py-30px py-md-40px py-lg-50px  position-relative">
 
-      <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee texto-elegante">Nuestras habitaciones</h2>
+      <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee lh-chico texto-elegante">Nuestras habitaciones</h2>
 
       {rooms.map((room,index) => {
         return(<HomeRoomsItem room={room} key={index} index={index} />)})}
