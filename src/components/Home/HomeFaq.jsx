@@ -3,23 +3,23 @@ export default function HomeFaq() {
   const faqs = [
     {
       title:"¿Cómo puedo hacer la reserva de una habitación?",
-      text:"Puede hacer la reserva de una habitación a través de booking, por teléfono o por correo electrónico."
+      text:<p className="accordion-body p-0 border-0">Puede hacer la reserva de una habitación a través de <a href='https://www.booking.com/Share-6OoqicS'>booking</a>, por teléfono o por correo electrónico.</p>
     },
     {
       title:"¿Cuál es la dirección del hotel?",
-      text:"La Cheminée se encuentra ubicado en San Martín de los Andes, Argentina, en la calle Mariano Moreno Gral. Roca 8370."
+      text:<p className="accordion-body p-0 border-0">La Cheminée se encuentra ubicado en San Martín de los Andes, Argentina, en la calle Mariano Moreno Gral. Roca 8370.</p>
     },
     {
       title:"¿Cuáles son los horarios de check-in y check-out?",
-      text:"El horario de check-in es a partir de las 15:00 hs y el de check-out es hasta las 11:00 hs."
+      text:<p className="accordion-body p-0 border-0">El horario de check-in es a partir de las 15:00 hs y el de check-out es hasta las 11:00 hs.</p>
     },
     {
       title:"¿Cuáles son los horarios de desayuno?",
-      text:"El desayuno se sirve de 8:00 a 10:00 hs."
+      text:<p className="accordion-body p-0 border-0">El desayuno se sirve de 8:00 a 10:00 hs.</p>
     }/* ,
     {
       title:"¿En qué momentos puedo disfruta del spa?",
-      text:"El spa se encuentra abierto de 10:00 a 20:00 hs."
+      text:<p className="accordion-body p-0 border-0">El spa se encuentra abierto de 10:00 a 20:00 hs.</p>
     } */
   ]
 

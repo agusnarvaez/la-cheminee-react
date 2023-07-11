@@ -1,5 +1,7 @@
 import { Suspense, lazy } from "react"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+
 import './assets/styles/Custom.scss'
 import './assets/styles/index.css'
 import Header from "./components/Header"
@@ -12,6 +14,7 @@ const Contact = lazy(()=>import("./components/Contact/Contact"))
 /* const Privacy = lazy(()=>import("./components/Privacy/Privacy")) */
 const Footer = lazy(()=>import("./components/Footer"))
 const Error404 = lazy(()=>import("./components/Error404"))
+
 export default function App() {
 
 const metaData = {

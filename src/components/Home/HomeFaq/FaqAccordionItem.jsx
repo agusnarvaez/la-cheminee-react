@@ -1,5 +1,4 @@
 
-
 export default function FaqAccordionItem({title,accordionId,text}) {
 
     return (
@@ -13,9 +12,7 @@ export default function FaqAccordionItem({title,accordionId,text}) {
             </h2>
             <div id={accordionId} className="accordion-collapse collapse  border-0"
                 data-bs-parent="#accordionFlushExample">
-                <p className="accordion-body p-0 border-0">
-                   {text}
-                </p>
+                {text}
             </div>
     </div>
     )
