@@ -40,8 +40,35 @@ body {
 .fs-2rem{
     font-size: 2rem;
 }
+.fs-25rem{
+    font-size: 2.5rem;
+}
 .fs-3rem{
     font-size: 3rem;
+}
+.fs-35rem{
+    font-size: 3.5rem;
+}
+.fs-4rem{
+    font-size: 4rem;
+}
+.fs-45rem{
+    font-size: 4.5rem;
+}
+.fs-5rem{
+    font-size: 5rem;
+}
+.fs-55rem{
+    font-size: 5.5rem;
+}
+.fs-6rem{
+    font-size: 6rem;
+}
+.fs-7rem{
+    font-size: 7rem;
+}
+.fw-semibold{
+    font-weight: semi-bold;
 }
 
 .texto-elegante{
@@ -130,6 +157,16 @@ footer .footerAccordion .accordion-button.active::after {
     .fs-md-15rem{
         font-size: 1.5rem;
     }
+    .fs-md-2rem{
+        font-size: 2rem;
+    }
+    .fs-md-25rem{
+        font-size: 2.5rem;
+    }
+
+    .fs-md-4rem{
+        font-size: 4rem;
+    }
 
     .h-md-100{
         height: 100%;
@@ -165,8 +202,20 @@ footer .footerAccordion .accordion-button.active::after {
     .fs-lg-2rem{
         font-size: 2rem;
     }
+    .fs-lg-25rem{
+        font-size: 2.5rem;
+    }
     .fs-lg-3rem{
         font-size: 3rem;
+    }
+    .fs-lg-45rem{
+        font-size: 4.5rem;
+    }
+    .fs-lg-5rem{
+        font-size: 5rem;
+    }
+    .fs-lg-7rem{
+        font-size: 7rem;
     }
 
 }
@@ -175,6 +224,8 @@ footer .footerAccordion .accordion-button.active::after {
 /*! ############ LARGER DESKTOPS ###########*/
 /*! ########################################*/
 @media (min-width: 1280px) {
-
+    .fs-xl-7rem{
+        font-size: 7rem;
+    }
 
 }

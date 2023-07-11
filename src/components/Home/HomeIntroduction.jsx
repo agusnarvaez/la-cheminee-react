@@ -10,7 +10,7 @@ export default function HomeIntroduction() {
       <div className='container-fluid col-lg-6 my-4 mb-0 m-lg-0 px-4 row flex-column order-lg-1 justify-content-center align-items-center col-12'>
         <div className='row justify-content-start flex-lg-column p-0 align-items-end align-items-lg-start'>
           <img loading='lazy' src={laChemineeLogo} alt='La Cheminée' className='col-4 col-md-3 p-0 col-lg-5' />
-          <h2 className='col-8 fs-3 fs-lg-2 m-0 p-0 ps-2 ps-lg-0  fw-bold texto-verde-la-cheminee texto-elegante lh-chico'>reabre sus puertas</h2>
+          <h2 className='col-8 fs-35rem m-0 p-0 ps-2 ps-lg-0  fw-bold texto-verde-la-cheminee texto-elegante lh-chico'>reabre sus puertas</h2>
         </div>
 
         <p className='texto-verde-la-cheminee p-0 m-0 mt-3 fs-6 fs-lg-6'>
