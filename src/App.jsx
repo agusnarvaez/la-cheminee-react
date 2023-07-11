@@ -67,7 +67,7 @@ const metaData = {
         </Routes>
         <Footer />
         <div className="col-12 py-3 bg-green-la-cheminee d-flex justify-content-center align-items-center">
-            <img className='logoBapps' alt="logoBapps" src={logoBapps} />
+            <img className='logoBapps' loading='lazy' alt="logoBapps" src={logoBapps} />
         </div>
       </BrowserRouter>
     </Suspense>

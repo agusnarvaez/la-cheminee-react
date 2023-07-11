@@ -14,19 +14,19 @@ export default function HomeSpa() {
       <div className="container-fluid spa-gallery p-0 d-flex justify-content-center align-items-center position-relative">
         <div className="container-fluid p-0 spa-gallery-mobil">
           <div className='container-fluid p-0 m-0 mb-1 row justify-content-between'>
-            <img className='img-fluid col-5 p-0 cover-image-shadowed' src={spa2} alt="spa-2" />
-            <img className='img-fluid col-3 p-0 cover-image-shadowed' src={spa1} alt="spa-1" />
+            <img loading='lazy' className='img-fluid col-5 p-0 cover-image-shadowed' src={spa2} alt="spa-2" />
+            <img loading='lazy' className='img-fluid col-3 p-0 cover-image-shadowed' src={spa1} alt="spa-1" />
 
             <div className='p-0 col-4 row flex-column justify-content-center'>
-              <img className='img-fluid w-100 h-50 pb-1 cover-image-shadowed' src={spa3} alt="spa-3" />
-              <img className='img-fluid w-100 h-50 pt-1 cover-image-shadowed' src={spa4} alt="spa-4" />
+              <img loading='lazy' className='img-fluid w-100 h-50 pb-1 cover-image-shadowed' src={spa3} alt="spa-3" />
+              <img loading='lazy' className='img-fluid w-100 h-50 pt-1 cover-image-shadowed' src={spa4} alt="spa-4" />
             </div>
 
           </div>
 
           <div className='container-fluid p-0 pt-1 m-0 row justify-content-center'>
-            <img className='img-fluid col-6 p-0 pe-2 cover-image-shadowed' src={spa5} alt="spa-5" />
-            <img className='img-fluid col-6 p-0 cover-image-shadowed' src={spa6} alt="spa-6" />
+            <img loading='lazy' className='img-fluid col-6 p-0 pe-2 cover-image-shadowed' src={spa5} alt="spa-5" />
+            <img loading='lazy' className='img-fluid col-6 p-0 cover-image-shadowed' src={spa6} alt="spa-6" />
           </div>
         </div>
       </div>
