@@ -1,4 +1,4 @@
-import FooterNavlink from "./FooterNavLink";
+import FooterNavlink from "./FooterNavLink"
 
 export default function HeaderNav({links}) {
 

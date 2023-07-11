@@ -1,4 +1,4 @@
-import HeaderNavLink from "./HeaderNavLink";
+import HeaderNavLink from "./HeaderNavLink"
 
 export default function HeaderNav({burgerMenu,setBurgerMenu}) {
 

@@ -1,4 +1,4 @@
-import {useState,useRef} from 'react';
+import {useState,useRef} from 'react'
 
 import living3 from '../../assets/images/living-3.jpg'
 import living2 from '../../assets/images/living-2.jpg'
@@ -29,8 +29,8 @@ export default function HomeCarrousel() {
   }
   /*useEffect(() => {
      if (myElementRef.current) {
-      //const rect = myElementRef.current.getBoundingClientRect();
-      //const xPosition = rect.x; // Posición en el eje X
+      //const rect = myElementRef.current.getBoundingClientRect()
+      //const xPosition = rect.x // Posición en el eje X
     }
   }, [])*/
 

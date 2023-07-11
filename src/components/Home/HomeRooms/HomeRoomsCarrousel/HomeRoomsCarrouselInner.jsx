@@ -1,7 +1,6 @@
 import CarrouselItem from "./HomeRoomsCarrouselItem"
 
 export default function CarrouselInner({photos, currentImageIndex}) {
-  console.log(currentImageIndex)
   return (
     <div className="carousel-inner">
       {photos.map((photo, index) => (

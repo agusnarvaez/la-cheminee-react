@@ -1,6 +1,6 @@
 //* React Router Dom para la navegación
 import { NavLink } from 'react-router-dom'
-import {scrollToTop} from "../../utils/headerUtils";
+import {scrollToTop} from "../../utils/headerUtils"
 
 export default function HeaderNavLink({link}) {
 

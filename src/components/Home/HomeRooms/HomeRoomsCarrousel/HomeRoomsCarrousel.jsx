@@ -1,30 +1,29 @@
-import { useState } from 'react';
-import CarrouselInner from './HomeRoomsCarrouselInner';
+import { useState } from 'react'
+import CarrouselInner from './HomeRoomsCarrouselInner'
 export default function HomeRoomsCarrousel({photos,index}) {
   const [currentImageIndexes, setCurrentImageIndexes] = useState(Array.from({ length: photos.length }, (_, i) => i + 1))
-  console.log(index)
   const handleNext = () => {
     setCurrentImageIndexes(prevIndexes => {
-      const newIndexes = [...prevIndexes];
+      const newIndexes = [...prevIndexes]
       if (newIndexes[index] === photos.length) {
-        newIndexes[index] = 1;
+        newIndexes[index] = 1
       } else {
-        newIndexes[index] += 1;
+        newIndexes[index] += 1
       }
-      return newIndexes;
-    });
+      return newIndexes
+    })
   }
   const handlePrevious = () => {
     setCurrentImageIndexes(prevIndexes => {
-      const newIndexes = [...prevIndexes];
+      const newIndexes = [...prevIndexes]
       if (newIndexes[index] === 1) {
-        newIndexes[index] = photos.length;
+        newIndexes[index] = photos.length
       } else {
-        newIndexes[index] -= 1;
+        newIndexes[index] -= 1
       }
-      return newIndexes;
-    });
-  };
+      return newIndexes
+    })
+  }
   return (
     <div className="container-fluid p-0 col-lg-6 order-lg-2 box-shadow">
 

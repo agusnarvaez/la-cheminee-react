@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import logoLaCheminee from '../assets/logos/logo-la-cheminee.svg'
 import '../assets/styles/header.css'
-import HeaderNav from "./Header/HeaderNav";
+import HeaderNav from "./Header/HeaderNav"
 import {scrollToTop } from '../utils/headerUtils.js'
 export default function Header() {
-    const [burgerMenu, setBurgerMenu] = useState(false);
+    const [burgerMenu, setBurgerMenu] = useState(false)
 
     var burgerMenuIconClass = 'bi bi-list text-center d-sm-block d-lg-none z-index-150 col-1 p-0'
     var crossIconClass = 'bi bi-x-lg text-center d-sm-block d-lg-none z-index-150 col-1 p-0'

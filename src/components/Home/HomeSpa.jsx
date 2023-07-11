@@ -1,9 +1,9 @@
-import spa1 from '../../assets/images/spa-1.jpg';
-import spa2 from '../../assets/images/spa-2.jpg';
-import spa3 from '../../assets/images/spa-3.jpg';
-import spa4 from '../../assets/images/spa-4.jpg';
-import spa5 from '../../assets/images/spa-5.jpg';
-import spa6 from '../../assets/images/spa-6.jpg';
+import spa1 from '../../assets/images/spa-1.jpg'
+import spa2 from '../../assets/images/spa-2.jpg'
+import spa3 from '../../assets/images/spa-3.jpg'
+import spa4 from '../../assets/images/spa-4.jpg'
+import spa5 from '../../assets/images/spa-5.jpg'
+import spa6 from '../../assets/images/spa-6.jpg'
 
 export default function HomeSpa() {
   return (

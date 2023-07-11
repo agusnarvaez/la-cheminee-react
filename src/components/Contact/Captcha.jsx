@@ -12,15 +12,15 @@ export default function Captcha({ register, setValue, errors }) {
             sitekey={credentials.captchaKey}
             name="recaptcha"
             onChange={(value) => {
-              setValue("recaptcha", value);
+              setValue("recaptcha", value)
             }}
             onExpired={() => {
-              setValue("recaptcha", "");
+              setValue("recaptcha", "")
             }}
             className="recaptcha-container"
           />
         </div>
         {errors?.recaptcha && <p className="text-danger fw-bold">{errors.recaptcha.message}</p>}
       </>
-    );
+    )
   }
