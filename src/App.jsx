@@ -22,21 +22,21 @@ const metaData = {
         {
             title: "San Martín de los Andes",
             description:"Conocé el hotel que te proveerá de un descanso inigualable en la Patagonia Argentina y disfrutá de la naturaleza en su máxima expresión.",
-            keywords:"hotel, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo",
+            keywords:"hotel, hostería, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo",
             cannonical: "/",
         },
     contact:
         {
           title: "Despejá tus dudas",
           description:"El equipo del hotel está a tu disposición para responder tus consultas y brindarte la información que necesites para que tu estadía sea inolvidable.",
-          keywords:"hotel, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo, contacto, consultas, estadía, inolvidable, equipo, información, dudas, despejar, responder",
+          keywords:"hotel, hostería, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo, contacto, consultas, estadía, inolvidable, equipo, información, dudas, despejar, responder",
           cannonical: "/contacto"
         },
     about:
         {
           title: "Conocenos",
           description:"Conocé lo que La Cheminée tiene para ofrecerte, desde sus instalaciones hasta las actividades que podés realizar en la zona.",
-          keywords:"hotel, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo, conocenos, instalaciones, actividades, zona",
+          keywords:"hotel,hostería, san martín de los andes, patagonia, sur, argentina, alojamiento, descanso, naturaleza, montaña, lago, quincho, parrilla, pileta, piscina, spa, jacuzzi, sauna, masajes, relax, aventura, deportes, nieve, esquí, snowboard, pesca, cabalgatas, trekking, mountain bike, gastronomía, restaurant, bar, desayuno, almuerzo, cena, merienda, té, tortas, dulces, picadas, vinos, ciervo, conocenos, instalaciones, actividades, zona",
           cannonical: "/sobre-nosotros"
         },
     error404:
