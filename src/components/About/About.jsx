@@ -3,7 +3,7 @@ import '../../assets/styles/index.css'
 import '../../assets/styles/about.css'
 import decoracion from '../../assets/images/decoracion-2.jpg'
 import ventana from '../../assets/images/ventana.jpg'
-import barra from '../../assets/images/barra.jpg'
+import barra from '../../assets/images/barra-1.jpg'
 import banner from '../../assets/backgrounds/banner-home.jpg'
 export default function About({metaData}) {
   return (
