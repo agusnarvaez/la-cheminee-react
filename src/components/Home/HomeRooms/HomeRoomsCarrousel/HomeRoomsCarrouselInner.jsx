@@ -1,15 +1,17 @@
 import CarrouselItem from "./HomeRoomsCarrouselItem"
 
-export default function CarrouselInner({photos, currentImageIndex}) {
+export default function CarrouselInner({photos}) {
+
   return (
     <div className="carousel-inner">
-      {photos.map((photo, index) => (
+      {photos.map((photo, index) => {
+        return(
         <CarrouselItem
-          className={`carousel-item ${index === currentImageIndex - 1 ? 'active' : ''}`}
+          className={`carousel-item ${0 === index ? 'active' : ''}`}
           photo={photo}
           key={index}
         />
-      ))}
+      )})}
     </div>
   )
 }

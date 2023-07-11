@@ -1,27 +1,26 @@
 import { useState } from 'react'
 import CarrouselInner from './HomeRoomsCarrouselInner'
 export default function HomeRoomsCarrousel({photos,index}) {
-  const [currentImageIndexes, setCurrentImageIndexes] = useState(Array.from({ length: photos.length }, (_, i) => i + 1))
+  const [currentImageIndexes, setCurrentImageIndexes] = useState(1)
+
+
   const handleNext = () => {
     setCurrentImageIndexes(prevIndexes => {
-      const newIndexes = [...prevIndexes]
-      if (newIndexes[index] === photos.length) {
-        newIndexes[index] = 1
+
+      if (currentImageIndexes === photos.length) {
+        return 1
       } else {
-        newIndexes[index] += 1
+        return currentImageIndexes+1
       }
-      return newIndexes
     })
   }
   const handlePrevious = () => {
     setCurrentImageIndexes(prevIndexes => {
-      const newIndexes = [...prevIndexes]
-      if (newIndexes[index] === 1) {
-        newIndexes[index] = photos.length
+      if (currentImageIndexes === 1) {
+        return photos.length
       } else {
-        newIndexes[index] -= 1
+        return currentImageIndexes-1
       }
-      return newIndexes
     })
   }
   return (
@@ -35,12 +34,12 @@ export default function HomeRoomsCarrousel({photos,index}) {
           <button type="button" data-bs-target={"#carrousel-"+index} data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <CarrouselInner photos={photos} currentImageIndex={currentImageIndexes[index]} />
+        <CarrouselInner photos={photos} />
 
         <div className="d-none d-lg-flex text-white align-items-center position-absolute bottom-0 end-0 carrousel-navigator ">
           <button className="bi bi-arrow-left text-white fs-4 fw-light" type="button" data-bs-target={"#carrousel-"+index} data-bs-slide="prev" onClick={handlePrevious}/>
 
-          <p className='d-flex align-items-center p-0 m-0 fw-light'>{currentImageIndexes[index]+"/"+photos.length}</p>
+          <p className='d-flex align-items-center p-0 m-0 fw-light'>{currentImageIndexes+"/"+photos.length}</p>
 
           <button className="bi bi-arrow-right text-white fs-4 fw-light" type="button" data-bs-target={"#carrousel-"+index} data-bs-slide="next" onClick={handleNext}/>
         </div>
