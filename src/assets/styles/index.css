@@ -81,6 +81,10 @@ body {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+.py-55px{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
 .lh-chico{
     line-height: 1;
 }
@@ -130,9 +134,10 @@ footer .footerAccordion .accordion-button.active::after {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
+
     border-radius: 10px;
-    padding: 2% 5%;
+    padding: 3% 5%;
     border: #394C02 2px solid !important;
     transition: all 0.3s ease-in-out;
 }
@@ -156,7 +161,7 @@ footer .footerAccordion .accordion-button.active::after {
     .btn-la-cheminee{
         font-size: 1.2rem;
         border-radius: 10px;
-        padding: 1% 0%;
+        padding: 2% 0%;
     }
 
     .fs-md-3rem{
@@ -208,9 +213,9 @@ footer .footerAccordion .accordion-button.active::after {
 
 
     .btn-la-cheminee{
-        font-size: 1rem;
+        font-size: 1.2rem;
         border-radius: 15px;
-        padding: 2% 0%;
+        padding: 3% 0%;
     }
 
     .btn-la-cheminee:hover{
@@ -256,8 +261,21 @@ footer .footerAccordion .accordion-button.active::after {
 /*! ############ LARGER DESKTOPS ###########*/
 /*! ########################################*/
 @media (min-width: 1280px) {
+    .btn-la-cheminee{
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
     .fs-xl-7rem{
         font-size: 7rem;
+    }
+    .fs-xl-15rem{
+        font-size: 1.5rem;
+    }
+    .fs-xl-2rem{
+        font-size: 2rem;
+    }
+    .fs-xl-25rem{
+        font-size: 2.5rem;
     }
     .fs-xl-3rem{
         font-size: 3rem;

@@ -3,7 +3,7 @@ import woodsIcon from '../../assets/logos/house-tree.svg'
 import careIcon from '../../assets/logos/care.svg'
 export default function HomeInfo() {
   return (
-    <section className="container-fluid col-12 row m-0 border-bottom">
+    <section className="container-fluid col-12 row m-0 pb-5 pb-lg-4 border-bottom">
 
       <div className="container-fluid col-12 col-lg-6 row m-0 my-lg-5 p-0 py-3 justify-content-center homeInfoContent">
         <img loading='lazy' src={woodsIcon} alt="Icono" className='col-2 col-md-1 col-lg-1 px-lg-0 mb-3 img-fluid' />
