@@ -210,16 +210,16 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         left: 0;
     }
     .carrouselContainer_mobil-position-2{
-        left: -40%;
+        left: -90%;
     }
     .carrouselContainer_mobil-position-3{
-        left: -100%;
+        left: -130%;
     }
     .carrouselContainer_mobil-position-4{
-        left: -200%;
+        left: -170%;
     }
     .carrouselContainer_mobil-position-5{
-        left: -280%;
+        left: -215%;
     }
 
     .carrousel-navigator{
@@ -289,16 +289,16 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         left: 0;
     }
     .carrouselContainer_mobil-position-2{
-        left: -60%;
+        left: -30%;
     }
     .carrouselContainer_mobil-position-3{
-        left: -100%;
+        left: -60%;
     }
     .carrouselContainer_mobil-position-4{
-        left: -150%;
+        left: -90%;
     }
     .carrouselContainer_mobil-position-5{
-        left: -170%;
+        left: -120%;
     }
 
     .carousel-inner{
