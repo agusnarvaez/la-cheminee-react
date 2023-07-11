@@ -7,13 +7,13 @@ import './assets/styles/index.css'
 import Header from "./components/Header"
 import logoBapps from './assets/logos/logoBappsFooter.png'
 
-const Home = lazy(()=>import("./components/Home/Home"))
-const About = lazy(()=>import("./components/About/About"))
-const Contact = lazy(()=>import("./components/Contact/Contact"))
+const Home = lazy(()=>import("./Pages/Home"))
+const About = lazy(()=>import("./Pages/About"))
+const Contact = lazy(()=>import("./Pages/Contact"))
 /* const Terms = lazy(()=>import("./components/Terms/Terms")) */
 /* const Privacy = lazy(()=>import("./components/Privacy/Privacy")) */
 const Footer = lazy(()=>import("./components/Footer"))
-const Error404 = lazy(()=>import("./components/Error404"))
+const Error404 = lazy(()=>import("./Pages/Error404"))
 
 export default function App() {
 

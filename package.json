@@ -18,14 +18,18 @@
     "react-hook-form": "^7.45.1",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
     "sass": "^1.63.4",
+    "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap",
+    "analyze": "source-map-explorer build/static/js/*.js"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

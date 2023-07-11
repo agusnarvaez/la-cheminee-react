@@ -1,10 +1,10 @@
-import HelmetData from '../HelmetData'
-import '../../assets/styles/index.css'
-import '../../assets/styles/about.css'
-import decoracion from '../../assets/images/decoracion-2.jpg'
-import ventana from '../../assets/images/ventana.jpg'
-import barra from '../../assets/images/barra-1.jpg'
-import banner from '../../assets/backgrounds/banner-home.jpg'
+import HelmetData from '../components/HelmetData'
+import '../assets/styles/index.css'
+import '../assets/styles/about.css'
+import decoracion from '../assets/images/decoracion-2.jpg'
+import ventana from '../assets/images/ventana.jpg'
+import barra from '../assets/images/barra-1.jpg'
+import banner from '../assets/backgrounds/banner-home.jpg'
 export default function About({metaData}) {
   return (
     <main className="container-fluid p-0 px-3 px-md-4 px-lg-5 d-flex flex-column align-items-center">

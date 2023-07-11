@@ -1,21 +1,21 @@
 //* Importo hojas de estilos
-import '../../assets/styles/index.css'
-import '../../assets/styles/contact.css'
+import '../assets/styles/index.css'
+import '../assets/styles/contact.css'
 
 //* Importo hooks
 import {useState} from 'react'
 import {useForm} from 'react-hook-form'
 
-import HelmetData from '../HelmetData'
+import HelmetData from '../components/HelmetData'
 
 //* Importo componentes
-import ContactInput from './ContactInput'
-import Captcha from './Captcha'
-import Button from './Button'
+import ContactInput from '../components/Contact/ContactInput'
+import Captcha from '../components/Contact/Captcha'
+import Button from '../components/Contact/Button'
 
 //* Importo servicios
-import {sendEmail} from '../../services/emailjs.js'
-import { buttonState,contactFields as fields } from '../../utils/formUtils'
+import {sendEmail} from '../services/emailjs.js'
+import { buttonState,contactFields as fields } from '../utils/formUtils'
 
 export default function Contact({metaData}) {
   //* Estado del botón

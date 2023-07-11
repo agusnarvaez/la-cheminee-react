@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import living4 from '../assets/images/living-4.jpg'
 import '../assets/styles/notFound.css'
 
-import HelmetData from './HelmetData'
+import HelmetData from '../components/HelmetData'
 
 export default function Error404({metaData}) {
   return (

@@ -21,7 +21,7 @@ export default function Header() {
                 title='inicio'
                 exact="true"
             >
-                <img className="col-12 col-md-8 col-lg-6" alt="Logo La Cheminée" src={logoLaCheminee}  />
+                <img className="col-12 col-md-8 col-lg-6 h-auto" alt="Logo La Cheminée" src={logoLaCheminee}  />
             </NavLink>
             <i  className={`icon ${burgerMenu ? crossIconClass : burgerMenuIconClass}`} onClick={() => setBurgerMenu(!burgerMenu)}></i>
             <nav className={navClass} id="navBar">
