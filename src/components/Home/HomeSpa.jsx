@@ -11,8 +11,8 @@ export default function HomeSpa() {
 
       <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee texto-elegante">El Spa</h2>
 
-      <div className="container-fluid spa-gallery p-0 d-flex justify-content-center align-items-center position-relative">
-        <div className="container-fluid p-0 spa-gallery-mobil">
+      <div className="container-fluid box-shadow spa-gallery p-0 d-flex justify-content-center align-items-center position-relative">
+        <div className="container-fluid p-0 box-shadow spa-gallery-mobil">
           <div className='container-fluid p-0 m-0 mb-1 row justify-content-between'>
             <img loading='lazy' className='img-fluid col-5 p-0 cover-image-shadowed' src={spa2} alt="spa-2" />
             <img loading='lazy' className='img-fluid col-3 p-0 cover-image-shadowed' src={spa1} alt="spa-1" />
