@@ -8,7 +8,7 @@ export default function HeaderNavLink({link}) {
 
     var liClass = 'nav-item py-3'
 
-    var linkClass = 'nav-link texto-verde-la-cheminee fs-4 l-p-3'
+    var linkClass = 'nav-link texto-verde-la-cheminee fs-5 l-p-3'
     return (
         <>
             <li className={liClass}>
