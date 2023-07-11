@@ -7,7 +7,7 @@ export default function HomeFaq() {
     },
     {
       title:"¿Cuál es la dirección del hotel?",
-      text:<p className="accordion-body p-0 border-0">La Cheminée se encuentra ubicado en San Martín de los Andes, Argentina, en la calle Mariano Moreno Gral. Roca 8370.</p>
+      text:<p className="accordion-body p-0 border-0">La Cheminée se encuentra ubicado en Mariano moreno 667 esquina gral. Roca, San Martín de los Andes, Neuquén, Argentina (CP 8370).</p>
     },
     {
       title:"¿Cuáles son los horarios de check-in y check-out?",

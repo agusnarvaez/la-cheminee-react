@@ -36,7 +36,9 @@ const rooms = [
 
       <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee texto-elegante">Nuestras habitaciones</h2>
 
-      {rooms.map((room,index) => {return(<HomeRoomsItem room={room} key={index} />)})}
+      {rooms.map((room,index) => {
+        console.log(index)
+        return(<HomeRoomsItem room={room} key={index} index={index} />)})}
 
     </section>
   )
