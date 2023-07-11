@@ -70,6 +70,9 @@ body {
 .fw-semibold{
     font-weight: semi-bold;
 }
+.fw-lighter{
+    font-weight: lighter;
+}
 
 .texto-elegante{
     font-family: Playfair Display, serif;
@@ -226,6 +229,12 @@ footer .footerAccordion .accordion-button.active::after {
 @media (min-width: 1280px) {
     .fs-xl-7rem{
         font-size: 7rem;
+    }
+    .fs-xl-3rem{
+        font-size: 3rem;
+    }
+    .fs-xl-35rem{
+        font-size: 3.5rem;
     }
 
 }
