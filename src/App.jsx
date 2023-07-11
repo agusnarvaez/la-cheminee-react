@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-
+import './assets/styles/normalize.css'
 import './assets/styles/Custom.scss'
 import './assets/styles/index.css'
 import Header from "./components/Header"
