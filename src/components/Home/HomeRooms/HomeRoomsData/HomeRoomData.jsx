@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import HomeRoomService from './HomeRoomService'
+import {scrollToTop } from '../../../../utils/headerUtils.js'
 
 export default function HomeRoomsArticle({index,room}) {
 
@@ -15,7 +16,7 @@ export default function HomeRoomsArticle({index,room}) {
           {room.services.map((service, index) => <HomeRoomService key={index} index={index} service={service}/> )}
         </ul>
 
-        <Link to="/contacto" className="btn-la-cheminee border-0 col-8 col-md-5 col-lg-9 col-xl-7 bg-green-la-cheminee my-2 fw-bold">Consultar disponibilidad</Link>
+        <Link onClick={scrollToTop} to="/contacto" className="btn-la-cheminee border-0 col-8 col-md-5 col-lg-9 col-xl-7 bg-green-la-cheminee my-2 fw-bold">Consultar disponibilidad</Link>
       </div>
   )
 }
