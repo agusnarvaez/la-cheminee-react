@@ -9,7 +9,7 @@ export default function Header() {
 
     var burgerMenuIconClass = 'bi bi-list text-center d-sm-block d-lg-none z-index-150 col-1 p-0'
     var crossIconClass = 'bi bi-x-lg text-center d-sm-block d-lg-none z-index-150 col-1 p-0'
-    var navClass = 'navbar col-12 col-lg-5 col-xl-3 d-flex justify-content-between flex-nowrap p-0 ps-lg-6'+(burgerMenu?' show':'')
+    var navClass = 'navbar col-12 col-lg-5 col-xl-4 d-flex justify-content-between flex-nowrap p-0 ps-lg-6'+(burgerMenu?' show':'')
 
 
     return (
