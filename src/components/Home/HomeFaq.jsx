@@ -26,9 +26,9 @@ export default function HomeFaq() {
   return (
     <section className="container-fluid col-12 row m-0 my-5 p-0 px-3 position-relative">
 
-      <h2 className=" fs-1 mb-4 fw-bolder texto-verde-la-cheminee texto-elegante">FAQs</h2>
+      <h2 className=" fs-3rem mb-4 fw-bolder texto-verde-la-cheminee texto-elegante">FAQs</h2>
       <div className="accordion faqAccordion accordion-flush " id="accordionFaq">
-        {faqs.map((faq,index) => <FaqAccordionItem key={index} title={faq.title} accordionId={`flush-collapse-${index}`} text={faq.text}/>)}
+        {faqs.map((faq,index) => <FaqAccordionItem key={index} index={index} title={faq.title} accordionId={`flush-collapse-${index}`} text={faq.text}/>)}
       </div>
 
     </section>

@@ -31,7 +31,7 @@ const secondaryLinks = [
     }
 ]
 return (
-    <footer className="container-fluid px-4 pt-5 pb-2 bg-green-la-cheminee d-lg-flex ">
+    <footer className="container-fluid px-4 pt-5 pb-4 bg-green-la-cheminee d-lg-flex ">
 
         <FooterTitle/>
 
@@ -44,9 +44,9 @@ return (
         </div>
 
 
-        <ul className="d-none d-lg-flex col-5 container-fluid p-0 m-0">
-            <li className="container-fluid p-0 pe-3 m-0 col-6 ">
-                <h2 className="fs-6 fw-bold col-12 border-lg-0 p-0">La Cheminée</h2>
+        <ul className="d-none d-lg-flex col-5 justify-content-end container-fluid p-0 m-0">
+            <li className="container-fluid p-0 ps-5 m-0 col-6 ">
+                <h2 className="fs-5 fw-bold col-12 border-lg-0 p-0 ps-0 mb-3">La Cheminée</h2>
                 <FooterNav links={primaryLinks}/>
             </li>
             {/* <li className="container-fluid p-0 pe-3 m-0 col-6 ">

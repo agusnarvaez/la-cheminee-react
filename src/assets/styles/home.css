@@ -8,6 +8,10 @@
     background-position: center;
     height: 250px; /* Ajusta la altura según sea necesario */
 }
+.spaIcon{
+    height: 47px;
+    width: auto;
+}
 
 .banner .container {
 color: #fff; /* Color del texto */
@@ -130,10 +134,10 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 .faqAccordion .accordion-button{
     background-color: white !important;
     color: #394C02 !important;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .faqAccordion p{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /*! ########################################*/

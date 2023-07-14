@@ -8,7 +8,7 @@ import suiteStandardPlus1 from '../../assets/images/suiteStandardPlus-1.jpg'
 import suiteStandardPlus2 from '../../assets/images/suiteStandardPlus-2.jpg'
 import suiteStandardPlus3 from '../../assets/images/suiteStandardPlus-3.jpg'
 
-import HomeRoomsItem from './HomeRooms/HomeRoomsArticle'
+import HomeRoomsArticle from './HomeRooms/HomeRoomsArticle'
 
 export default function HomeRooms() {
 const rooms = [
@@ -34,10 +34,10 @@ const rooms = [
   return (
     <section className="container-fluid border-top border-bottom col-12 row m-0 px-0 py-30px py-md-40px py-lg-50px  position-relative">
 
-      <h2 className="text-center fs-1 mb-3 fw-bolder texto-verde-la-cheminee lh-chico texto-elegante">Nuestras habitaciones</h2>
+      <h2 className="text-center fs-26rem mb-3 fw-bolder texto-verde-la-cheminee lh-chico texto-elegante">Nuestras habitaciones</h2>
 
       {rooms.map((room,index) => {
-        return(<HomeRoomsItem room={room} key={index} index={index} />)})}
+        return(<HomeRoomsArticle room={room} key={index} index={index} />)})}
 
     </section>
   )

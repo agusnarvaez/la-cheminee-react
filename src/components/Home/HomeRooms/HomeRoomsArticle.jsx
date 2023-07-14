@@ -1,5 +1,5 @@
 import HomeRoomsCarrousel from "./HomeRoomsCarrousel/HomeRoomsCarrousel"
-import HomeRoomServices from "./HomeRoomsData/HomeRoomData"
+import HomeRoomData from "./HomeRoomsData/HomeRoomData"
 
 export default function HomeRoomsArticle({index,room}) {
   return (
@@ -7,7 +7,7 @@ export default function HomeRoomsArticle({index,room}) {
 
       <HomeRoomsCarrousel photos={room.photos} index={index}/>
 
-      <HomeRoomServices index={index} room={room}/>
+      <HomeRoomData index={index} room={room}/>
 
     </article>
   )
