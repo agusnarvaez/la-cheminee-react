@@ -39,7 +39,7 @@ export default function Contact({metaData}) {
     try{
       setButtonClass(buttonState.loading)
       const response = await sendEmail(data)
-      console.log(response)
+      //console.log(response)
       setButtonClass(buttonState.success)
       reset()
     }catch(error){

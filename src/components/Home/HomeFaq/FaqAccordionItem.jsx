@@ -1,6 +1,5 @@
 
 export default function FaqAccordionItem({title,accordionId,text,index}) {
-    console.log(index)
     const selectBorder = index===0?'border-top':''
     return (
 
