@@ -4,7 +4,7 @@ import '../../assets/styles/contact.css'
 export default function ContactInput({field,register,errors}) {
 
   return (
-    <div className='col-12 d-flex flex-column py-2 px-3 '>
+    <div className='col-12 d-flex flex-column py-2 px-3 px-lg-5 '>
       <label htmlFor={field.name} className='fw-bold fs-md-1rem'>{field.placeholder}</label>
       {field.name==="message"?
       <textarea id={field.name}

@@ -137,6 +137,9 @@ footer .footerAccordion .accordion-button.active::after {
 .border-cheminee-start{
     border-left: 2px solid #394C02;
 }
+.rounded-10px{
+    border-radius: 10px !important;
+}
 .rounded-15px{
     border-radius: 15px;
 }
@@ -170,9 +173,6 @@ footer .footerAccordion .accordion-button.active::after {
     height: fit-content;
 }
 
-.h-500px{
-    height: 500px;
-}
 .h-900px{
     height: 900px;
 }
@@ -233,6 +233,9 @@ footer .footerAccordion .accordion-button.active::after {
 
     .h-md-400px{
         height: 400px;
+    }
+    .rounded-md-15px{
+        border-radius: 15px !important;
     }
 }
 

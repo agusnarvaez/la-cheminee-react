@@ -6,7 +6,7 @@ import credentials from "../../credentials"
 export default function Captcha({ register, setValue, errors }) {
     return (
       <>
-        <div className="recaptcha my-4">
+        <div className="recaptcha">
           <ReCAPTCHA
             {...register('recaptcha',{ required: "Por favor, completa el CAPTCHA", })}
             sitekey={credentials.captchaKey}

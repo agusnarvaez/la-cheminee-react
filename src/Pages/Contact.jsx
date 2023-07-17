@@ -59,14 +59,16 @@ export default function Contact({metaData}) {
         <p className='texto-verde-la-cheminee text-center px-2 fs-11rem'>Ponete en contacto con La Cheminée e indicanos en qué te podemos ayudar</p>
       </div>
 
-      <form onSubmit={onSubmit} className="container-fluid p-0 py-3 d-flex flex-column justify-content-between align-items-center">
+      <form onSubmit={onSubmit} className="container-fluid p-0 py-3 px-md-5 d-flex flex-column justify-content-between align-items-center">
         {
           fields.map((field,index)=>{ return( <ContactInput key={index} field={field} register={register} errors={errors} />) })
         }
-
+      <div className='col-12 d-flex flex-column flex-md-row align-items-center justify-content-between pt-4 px-3 px-lg-5'>
         <Captcha register={register} setValue={setValue} errors={errors} />
 
         <Button buttonClass={buttonClass} text={'Enviar'} />
+      </div>
+
       </form>
     </main>
   )

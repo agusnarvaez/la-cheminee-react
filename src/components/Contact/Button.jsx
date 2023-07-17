@@ -12,7 +12,7 @@ export default function Button({buttonClass,text}) {
             case "error": return (
                 <button className="bi bi-x fs-4 d-flex align-items-center btn btn-danger px-3 my-3" type="button">¡Ups! Ha habido un error</button>)
         default: return (
-            <button className='btn-contact bg-green-la-cheminee px-5 py-2 my-2 fs-5' to="/">{text}</button>)
+            <button className='btn-contact rounded-10px rounded-md-15px col-5 col-md-3 col-xl-2 py-2 bg-green-la-cheminee px-3 py-0 mb-4 fs-1rem' to="/">{text}</button>)
         }
     }
     return (
