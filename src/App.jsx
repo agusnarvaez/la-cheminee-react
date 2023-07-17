@@ -6,7 +6,7 @@ import './assets/styles/Custom.scss'
 import './assets/styles/index.css'
 import Header from "./components/Header"
 import logoBapps from './assets/logos/logoBappsFooter.png'
-
+import LazyLoader from "./components/LazyLoader"
 const Home = lazy(()=>import("./Pages/Home"))
 const About = lazy(()=>import("./Pages/About"))
 const Contact = lazy(()=>import("./Pages/Contact"))
@@ -49,13 +49,7 @@ const metaData = {
 }
 
   return (
-    <Suspense
-      fallback={
-        <div className="col-12 d-flex justify-content-center align-items-center">
-          <div className="spinner-border texto-verde-la-cheminee" role="status">
-            <span className="visually-hidden">Loading...</span>
-          </div>
-        </div>}>
+    <Suspense fallback={ <LazyLoader /> }>
       <BrowserRouter>
         <Header />
         <Routes>

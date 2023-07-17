@@ -27,6 +27,13 @@ body {
     box-shadow: 0px 4px 56px 2px rgba(0, 0, 0, 0.25);
     object-fit: cover;
 }
+.h-500px{
+    height: 500px;
+}
+.h-600px{
+    height: 600px;
+}
+
 .fs-09rem{
     font-size: 0.9rem;
 }
@@ -158,6 +165,18 @@ footer .footerAccordion .accordion-button.active::after {
 .top-separator{
     border-top: 0.5px solid #394C02;
 }
+
+.h-fit-content{
+    height: fit-content;
+}
+
+.h-500px{
+    height: 500px;
+}
+.h-900px{
+    height: 900px;
+}
+
 /*! ########################################*/
 /*! ##### TABLETS & LARGER SMARTPHONES #####*/
 /*! ########################################*/
@@ -168,7 +187,6 @@ footer .footerAccordion .accordion-button.active::after {
     }
 
     .btn-la-cheminee{
-        font-size: 1.2rem;
         border-radius: 10px;
         padding: 2% 0%;
     }
@@ -212,6 +230,10 @@ footer .footerAccordion .accordion-button.active::after {
         padding-top: 45px;
         padding-bottom: 45px;
     }
+
+    .h-md-400px{
+        height: 400px;
+    }
 }
 
 
@@ -222,7 +244,6 @@ footer .footerAccordion .accordion-button.active::after {
 
 
     .btn-la-cheminee{
-        font-size: 1.2rem;
         border-radius: 15px;
         padding: 3% 0%;
     }
@@ -256,14 +277,20 @@ footer .footerAccordion .accordion-button.active::after {
     }
 
     .py-lg-50px{
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
     .py-lg-55px{
         padding-top: 55px;
         padding-bottom: 55px;
     }
 
+    .h-lg-600px{
+        height: 600px;
+    }
+    .border-bottom-lg-0 {
+        border-bottom: none;
+    }
 }
 
 /*! ########################################*/
@@ -271,7 +298,6 @@ footer .footerAccordion .accordion-button.active::after {
 /*! ########################################*/
 @media (min-width: 1280px) {
     .btn-la-cheminee{
-        font-size: 1.5rem;
         border-radius: 20px;
     }
     .fs-xl-7rem{
@@ -300,5 +326,9 @@ footer .footerAccordion .accordion-button.active::after {
     .py-lg-65px{
         padding-top: 65px;
         padding-bottom: 65px;
+    }
+
+    .h-xl-900px{
+        height: 900px;
     }
 }

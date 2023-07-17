@@ -3,7 +3,7 @@ import '../assets/styles/index.css'
 import HelmetData from '../components/HelmetData'
 
 import { Suspense,lazy } from 'react'
-
+import LazyLoader from '../components/LazyLoader'
 //* Componentes lazy load
 const HomeBanner = lazy(()=>import("../components/Home/HomeBanner"))
 const HomeIntroduction = lazy(()=>import('../components/Home/HomeIntroduction'))
@@ -18,7 +18,7 @@ export default function Home({metaData}) {
   return (
     <main className="container-fluid p-0">
       <HelmetData metaData={metaData}/>
-      <Suspense fallback={<div className="loading">Cargando...</div>}>
+      <Suspense fallback={ <LazyLoader /> }>
         <HomeBanner/>
 
         <HomeIntroduction/>

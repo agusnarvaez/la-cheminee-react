@@ -20,11 +20,6 @@
 /*! ########################################*/
 @media (min-width: 481px) {
 
-
-    .introduction-images{
-        height: 400px;
-    }
-
     .col-md-40{
         width: 40%;
     }
@@ -36,9 +31,6 @@
 /*! ########################################*/
 @media (min-width: 769px) {
 
-    .introduction-images{
-        height: 500px;
-    }
     .testimonios-container{
         border-bottom: none;
         border-right: 2px solid rgba(0, 0, 0, 0.10);
@@ -49,8 +41,6 @@
 /*! ############ LARGER DESKTOPS ###########*/
 /*! ########################################*/
 @media (min-width: 1280px) {
-    .introduction-images{
-        height: 600px;
-    }
+
 }
 

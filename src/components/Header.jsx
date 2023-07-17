@@ -9,7 +9,7 @@ export default function Header() {
 
     var burgerMenuIconClass = 'bi bi-list text-center d-sm-block d-lg-none z-index-150 col-1 p-0'
     var crossIconClass = 'bi bi-x-lg text-center d-sm-block d-lg-none z-index-150 col-1 p-0'
-    var navClass = 'navbar col-12 col-lg-5 col-xl-4 d-flex justify-content-between flex-nowrap p-0 ps-lg-6'+(burgerMenu?' show':'')
+    var navClass = 'navbar col-12 col-lg-5 col-xl-3 d-flex justify-content-between flex-nowrap p-0 ps-lg-6'+(burgerMenu?' show':'')
 
 
     return (
@@ -21,7 +21,7 @@ export default function Header() {
                 title='inicio'
                 exact="true"
             >
-                <img className="col-12 col-md-8 col-lg-5 h-auto" alt="Logo La Cheminée" src={logoLaCheminee}  />
+                <img className="col-12 col-md-8 col-lg-4 h-auto" alt="Logo La Cheminée" src={logoLaCheminee}  />
             </NavLink>
             <i  className={`icon ${burgerMenu ? crossIconClass : burgerMenuIconClass}`} onClick={() => setBurgerMenu(!burgerMenu)}></i>
             <nav className={navClass} id="navBar">
