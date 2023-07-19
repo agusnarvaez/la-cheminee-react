@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Blurhash } from 'react-blurhash'
-export default function ImageComponent({src,alt,className,hash,width,height}) {
+export default function ImageComponent({src,alt,className,blurClass,hash,width,height}) {
     const [imageLoaded,setImageLoaded] = useState(false)
     useEffect(() => {
         const img = new Image()
@@ -14,18 +14,19 @@ export default function ImageComponent({src,alt,className,hash,width,height}) {
         <>
             <Blurhash
                 hash={hash}
-                /* width={width}*/
-                height={'500px'}
-                className={!imageLoaded?'w-50 ':'d-none'}
+                width={width}
+                height={height}
+                className={!imageLoaded?blurClass:'d-none'}
+
                 resolutionX={32}
                 resolutionY={32}
-
                 punch={1}
             />
             <img
                 src={src}
                 alt={alt}
                 className={imageLoaded?className:'d-none'}
+                /* loading='lazy' */
             />
         </>
     )

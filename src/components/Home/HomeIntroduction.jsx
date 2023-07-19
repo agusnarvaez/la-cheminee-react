@@ -1,10 +1,20 @@
 import laChemineeLogo from '../../assets/logos/logo-la-cheminee.svg'
 import living from '../../assets/images/living-1.jpg'
+import ImageComponent from '../ImageComponent'
 export default function HomeIntroduction() {
   return (
     <section className="container-fluid col-12 row flex-column flex-lg-row align-items-center m-0 mt-5 p-0">
-      <div className="container-fluid introduction-image-container order-lg-2 px-4 col-lg-6 position-relative">
-        <img loading='lazy' className="w-100 h-auto introduction-image" src={living} alt="Living" />
+      <div className="container-fluid min-height-250 min-height-md-480 min-height-lg-300 min-height-xl-450 introduction-image-container order-lg-2 px-4 col-lg-6 position-relative">
+        {/* <img loading='lazy' className="w-100 h-auto introduction-image" src={living} alt="Living" /> */}
+        <ImageComponent
+          src={living}
+          alt='Living'
+          className='w-100 h-auto introduction-image'
+          hash='T6C5r3000f~XD%bE-WNFNG=|M{M|'
+          width='100%'
+          height='100%'
+          blurClass='min-height-250 min-height-md-480 min-height-lg-300 min-height-xl-450'
+          />
       </div>
 
       <div className='container-fluid col-lg-6 my-4 mb-0 m-lg-0 px-4 row flex-column order-lg-1 justify-content-center align-items-center col-12'>
