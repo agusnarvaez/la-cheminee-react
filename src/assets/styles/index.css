@@ -109,6 +109,10 @@ body {
     padding-top: 55px;
     padding-bottom: 55px;
 }
+.py-50px{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .lh-chico{
     line-height: 1;
@@ -329,6 +333,10 @@ footer .footerAccordion .accordion-button.active::after {
     .min-height-lg-300{
         min-height: 300px !important;
     }
+
+    .min-height-lg-600{
+        min-height: 600px !important;
+    }
 }
 
 /*! ########################################*/
@@ -366,11 +374,19 @@ footer .footerAccordion .accordion-button.active::after {
         padding-bottom: 65px;
     }
 
+    .h-xl-800px{
+        height: 900px;
+    }
+
     .h-xl-900px{
         height: 900px;
     }
 
     .min-height-xl-450{
         min-height: 450px !important;
+    }
+
+    .min-height-xl-700{
+        min-height: 700px !important;
     }
 }
