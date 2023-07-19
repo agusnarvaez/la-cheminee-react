@@ -9,7 +9,7 @@ import ImageComponent from '../ImageComponent'
 
 export default function HomeSpa() {
   return (
-    <section className="container-fluid col-12 row m-0 py-55px py-lg-50px">
+    <section className="container-fluid col-12 row m-0 py-55px px-lg-4 py-lg-50px">
 
       <h2 className="text-center fs-1 m-0 fw-bolder texto-verde-la-cheminee texto-elegante">El Spa</h2>
 

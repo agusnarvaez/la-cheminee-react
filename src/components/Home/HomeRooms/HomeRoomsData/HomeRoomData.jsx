@@ -17,7 +17,7 @@ export default function HomeRoomsArticle({index,room}) {
           {room.services.map((service, index) => <HomeRoomService key={index} index={index} service={service}/> )}
         </ul>
 
-        <Link onClick={scrollToTop} to="/contacto" className="btn-la-cheminee border-0 col-8 col-md-5 col-lg-8 col-xl-5 bg-green-la-cheminee my-2 fw-bold">Consultar disponibilidad</Link>
+        <Link onClick={scrollToTop} to="/contacto" className="btn-la-cheminee border-0 col-8 col-md-5 col-lg-8 col-xl-5 col-xxl-3 bg-green-la-cheminee my-2 fw-bold">Consultar disponibilidad</Link>
       </div>
   )
 }

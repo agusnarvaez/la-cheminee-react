@@ -283,7 +283,7 @@ footer .footerAccordion .accordion-button.active::after {
 
     .btn-la-cheminee{
         border-radius: 15px;
-        padding: 3% 0%;
+        padding: 2% 0%;
     }
 
     .btn-la-cheminee:hover{
@@ -327,7 +327,7 @@ footer .footerAccordion .accordion-button.active::after {
         height: 600px;
     }
     .border-bottom-lg-0 {
-        border-bottom: none;
+        border-bottom: none !important;
     }
 
     .min-height-lg-300{

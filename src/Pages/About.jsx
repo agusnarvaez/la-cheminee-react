@@ -8,7 +8,7 @@ import banner from '../assets/backgrounds/banner-home.jpg'
 import ImageComponent from '../components/ImageComponent'
 export default function About({metaData}) {
   return (
-    <main className="container-fluid p-0 px-3 px-md-4 px-lg-5 d-flex flex-column align-items-center">
+    <main className="container-fluid p-0 py-2 py-md-3 py-lg-4 py-xl-5 px-3 px-md-4 px-lg-5 d-flex flex-column align-items-center">
       <HelmetData metaData={metaData}/>
 
     <div className="container-fluid p-0 py-0 d-flex flex-column align-items-center">
@@ -26,7 +26,7 @@ export default function About({metaData}) {
     <div className="container-fluid p-0 pt-3 py-lg-5 d-flex flex-column flex-lg-row align-items-center">
       <div className='col-12 col-lg-6 pb-3 testimonios-container'>
         <h2 className='texto-elegante text-center px-2 ps-lg-0 pe-lg-5 mb-3 text-lg-start texto-verde-la-cheminee fw-bold fs-lg-2rem'>Te ofrecemos una experiencia única</h2>
-        <p className='texto-verde-la-cheminee text-center text-lg-start fs-1rem px-md-3 ps-0 pe-lg-4'>La identidad, la historia de un sitio emblemático y tradicional en una esquina distinguida de San Martín de los Andes. <br/>Situada en el centro de dicha ciudad, frente a la plaza San Martin, rodeada de un frondoso parque interno para disfrutar de la naturaleza patagónica, LA CHEMINEE HOTEL & SPA brinda una amplia gama de servicios para hacer de su estadía un verdadero placer.</p>
+        <p className='texto-verde-la-cheminee text-center text-lg-start fs-1rem px-md-3 ps-lg-0 pe-lg-5'>La identidad, la historia de un sitio emblemático y tradicional en una esquina distinguida de San Martín de los Andes. <br/>Situada en el centro de dicha ciudad, frente a la plaza San Martin, rodeada de un frondoso parque interno para disfrutar de la naturaleza patagónica, LA CHEMINEE HOTEL & SPA brinda una amplia gama de servicios para hacer de su estadía un verdadero placer.</p>
       </div>
       <div className='col-12 col-lg-6 mt-3'>
         <h2 className='texto-elegante text-center texto-verde-la-cheminee  mb-3 fs-2 m-0 lh-lg pt-3 px-3 fst-italic fw-light'>“Hospedarnos en La Cheminée fue una experiencia única. La comodidad, buena atención y calidez están presentes en todo momento. Volvería sin dudas”</h2>
@@ -55,7 +55,7 @@ export default function About({metaData}) {
       <ImageComponent alt='barra de la cheminée' className='img-fluid col-12 p-0 cover-image-shadowed mt-4 mb-md-0' src={barra} hash='TBC5SDE+AI}?EhoNS5S$smw}t7k9' blurClass='col-12 min-height-250 min-height-md-480 min-height-lg-600 min-height-xl-700' />
     </div>
 
-    <div className="top-separator min-height-600 min-height-md-700 py-30px py-lg-50px d-flex flex-column align-items-center">
+    <div className="border-top col-12 min-height-600 min-height-md-700 py-30px py-lg-50px d-flex flex-column align-items-center">
       <div className='col-12'>
         <h2 className='texto-elegante text-center texto-verde-la-cheminee fw-bold fs-18rem fs-lg-2rem mb-3'>¡Te esperamos!</h2>
         <p className='texto-verde-la-cheminee text-center fs-1rem px-md-3 px-lg-2'>Ya sea que estés visitando nuestra encantadora ciudad por negocios o por placer, en La Cheminée nos esforzamos por superar tus expectativas y convertir tu estancia en una experiencia inolvidable.</p>
