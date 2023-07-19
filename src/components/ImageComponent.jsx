@@ -14,10 +14,9 @@ export default function ImageComponent({src,alt,className,blurClass,hash,width,h
         <>
             <Blurhash
                 hash={hash}
-                width={width}
-                height={height}
-                className={!imageLoaded?blurClass:'d-none'}
-
+                width={width||'100%'}
+                height={height||'100%'}
+                className={!imageLoaded?(blurClass||''):'d-none'}
                 resolutionX={32}
                 resolutionY={32}
                 punch={1}
@@ -25,7 +24,7 @@ export default function ImageComponent({src,alt,className,blurClass,hash,width,h
             <img
                 src={src}
                 alt={alt}
-                className={imageLoaded?className:'d-none'}
+                className={imageLoaded?(className||''):'d-none'}
                 /* loading='lazy' */
             />
         </>
