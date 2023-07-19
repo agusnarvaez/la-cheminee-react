@@ -29,9 +29,21 @@ export default function HomeRoomsCarrousel({photos,index}) {
     <div id={"carrousel-"+index} className="carousel slide position-relative">
 
         <div className="carousel-indicators d-lg-none m-0">
-          <button type="button" data-bs-target={"#carrousel-"+index} data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target={"#carrousel-"+index} data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target={"#carrousel-"+index} data-bs-slide-to="2" aria-label="Slide 3"></button>
+          {
+            photos.map((photo,key) => {
+              return (
+                <button
+                  key={key}
+                  type="button"
+                  data-bs-target={"#carrousel-"+index}
+                  data-bs-slide-to={key}
+                  className={key===0?"active":null}
+                  aria-current="true"
+                  aria-label={"Slide "+(key+1)}
+                />
+              )
+            })
+          }
         </div>
 
         <CarrouselInner photos={photos} />
