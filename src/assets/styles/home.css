@@ -273,7 +273,7 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         font-size: 2.5rem !important;
     }
     .carrouselContainer{
-        height: 80vh;
+        height: 800px;
     }
     .carrouselContainer_mobil{
         scrollbar-width: none;
@@ -313,5 +313,21 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
 
     .carousel-inner{
         min-height: 700px;
+    }
+
+    .carrouselContainer_mobil-position-1{
+        left: 0;
+    }
+    .carrouselContainer_mobil-position-2{
+        left: -900px;
+    }
+    .carrouselContainer_mobil-position-3{
+        left: -1800px;
+    }
+    .carrouselContainer_mobil-position-4{
+        left: -2500px;
+    }
+    .carrouselContainer_mobil-position-5{
+        left: -3900px;
     }
 }
