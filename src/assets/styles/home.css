@@ -286,16 +286,16 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         left: 0;
     }
     .carrouselContainer_mobil-position-2{
-        left: -800px;
+        left: -900px;
     }
     .carrouselContainer_mobil-position-3{
-        left: -1600px;
+        left: -1800px;
     }
     .carrouselContainer_mobil-position-4{
-        left: -2200px;
+        left: -2700px;
     }
     .carrouselContainer_mobil-position-5{
-        left: -3000px;
+        left: -3800px;
     }
 
     .carousel-inner{
@@ -303,10 +303,11 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
     }
 }
 
+
 /*! ########################################*/
 /*! ######### EXTRA LARGER DESKTOPS ########*/
 /*! ########################################*/
-@media (min-width: 1480px) {
+@media (min-width: 1600px) {
     .banner{
         height: 750px; /* Ajusta la altura según sea necesario */
     }
@@ -322,12 +323,12 @@ background-color: rgba(0, 0, 0, 0.3); /* Color de fondo oscuro con transparencia
         left: -900px;
     }
     .carrouselContainer_mobil-position-3{
-        left: -1800px;
+        left: -1500px;
     }
     .carrouselContainer_mobil-position-4{
-        left: -2500px;
+        left: -2300px;
     }
     .carrouselContainer_mobil-position-5{
-        left: -3900px;
+        left: -3300px;
     }
 }
