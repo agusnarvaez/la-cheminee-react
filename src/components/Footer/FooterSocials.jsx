@@ -10,7 +10,7 @@ export default function FooterSocials() {
         <h2 className="fs-1rem d-block fw-bold col-12 border-lg-0 p-0">Redes Sociales</h2>
 
         <ul className="container-fluid p-0 m-lg-0 m-0 col-12 text-white list-unstyled d-flex flex-wrap justify-content-start">
-          <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-whatsapp me-4 fs-2 "/></a></li>
+          <li className={liStyle}><a className="text-white" href='/'> <i className="bi bi-whatsapp me-4 fs-2 "/></a></li>
           {/* <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-facebook me-4 fs-2 "/></a></li>
           <li className={liStyle}><a className="text-white" href={credentials.whatsappApi}> <i className="bi bi-instagram me-4 fs-2 "/></a></li> */}
         </ul>

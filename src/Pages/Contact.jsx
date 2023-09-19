@@ -38,7 +38,8 @@ export default function Contact({metaData}) {
   const onSubmit = handleSubmit(async(data) => {
     try{
       setButtonClass(buttonState.loading)
-      const response = await sendEmail(data)
+      /* const response = await sendEmail(data) */
+      alert('Este es un sitio de muestra, no se generan mails reales')
       //console.log(response)
       setButtonClass(buttonState.success)
       reset()
